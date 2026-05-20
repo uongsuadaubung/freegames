@@ -1,0 +1,19 @@
+{
+  "last_updated": "2026-05-20T09:12:20.199Z",
+  "games": [
+    {
+      "id": "73a4416d5cdb42f682d504fdf48e987b",
+      "title": "The Telltale Batman Shadows Edition",
+      "start_date": "2026-05-14T15:00:00.000Z",
+      "end_date": "2026-05-21T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/the-telltale-batman"
+    },
+    {
+      "id": "190cb955f17f48dcb8576aa8288c887f",
+      "title": "Sunderfolk - Standard Edition",
+      "start_date": "2026-05-14T15:00:00.000Z",
+      "end_date": "2026-05-21T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/sunderfolk-standard-edition-83c05e"
+    }
+  ]
+}
