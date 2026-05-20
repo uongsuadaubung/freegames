@@ -1,0 +1,58 @@
+name: Epic Games Free Games Tracker
+
+on:
+  schedule:
+    # Chạy tự động hàng ngày lúc 02:00 UTC (tức 09:00 sáng giờ Việt Nam)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Cho phép kích hoạt chạy thủ công từ giao diện GitHub bất cứ lúc nào
+
+jobs:
+  track-and-notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền ghi để có thể push games.json ngược lại repo
+      actions: write # Cấp quyền ghi để xóa lịch sử workflow cũ
+
+    steps:
+      - name: Checkout mã nguồn từ Repository
+        uses: actions/checkout@v4
+
+      - name: Thiết lập môi trường Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm' # Tối ưu tốc độ cache npm package
+
+      - name: Cài đặt Dependencies
+        run: |
+          npm ci || npm install
+
+      - name: Khởi chạy bộ quét game Epic Games & Gửi thông báo
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npm start
+
+      - name: Tự động cập nhật cơ sở dữ liệu games.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games.json
+          
+          # Chỉ commit và push nếu có sự thay đổi (phát hiện game mới)
+          if git diff --staged --quiet; then
+            echo "ℹ️ Không có game mới được phát hiện. Không cần cập nhật cơ sở dữ liệu."
+          else
+            echo "✨ Phát hiện game mới! Đang tự động commit và push..."
+            git commit -m "chore: cập nhật cơ sở dữ liệu games.json [skip ci]"
+            git push
+          fi
+
+      - name: Tự động xóa lịch sử workflow cũ
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 1

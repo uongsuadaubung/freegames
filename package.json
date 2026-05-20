@@ -1,0 +1,17 @@
+{
+  "name": "free-games",
+  "version": "1.0.0",
+  "description": "Epic Games Free Games Tracker with GitHub Actions and Telegram Notifications",
+  "main": "tracker.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx tracker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
