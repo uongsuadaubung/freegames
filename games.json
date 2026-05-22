@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T09:12:20.199Z",
+  "last_updated": "2026-05-22T06:10:45.380Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -14,6 +14,20 @@
       "start_date": "2026-05-14T15:00:00.000Z",
       "end_date": "2026-05-21T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/sunderfolk-standard-edition-83c05e"
+    },
+    {
+      "id": "cd37ebd7ce804df9b51b84578e631b8a",
+      "title": "Down in Bermuda",
+      "start_date": "2026-05-21T15:00:00.000Z",
+      "end_date": "2026-05-28T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/down-in-bermuda"
+    },
+    {
+      "id": "9e2567e57e61458686d53f5aeaf1e2e0",
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "start_date": "2026-05-21T15:00:00.000Z",
+      "end_date": "2026-05-28T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/tomb-raider-iiii-remastered-538640"
     }
   ]
 }
