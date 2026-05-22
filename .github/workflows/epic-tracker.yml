@@ -2,10 +2,10 @@ name: Epic Games Free Games Tracker
 
 on:
   schedule:
-    # Chạy tự động hàng ngày lúc 02:00 UTC (tức 09:00 sáng giờ Việt Nam)
-    - cron: '0 2 * * *'
+    # Chạy tự động hàng ngày lúc 02:37 UTC (tức 09:37 sáng giờ Việt Nam)
+    - cron: "37 2 * * *"
   workflow_dispatch:
-    # Cho phép kích hoạt chạy thủ công từ giao diện GitHub bất cứ lúc nào
+# Cho phép kích hoạt chạy thủ công từ giao diện GitHub bất cứ lúc nào
 
 jobs:
   track-and-notify:
@@ -18,28 +18,23 @@ jobs:
       - name: Checkout mã nguồn từ Repository
         uses: actions/checkout@v4
 
-      - name: Thiết lập môi trường Node.js
-        uses: actions/setup-node@v4
+      - name: Thiết lập môi trường Deno
+        uses: denoland/setup-deno@v2
         with:
-          node-version: 20
-          cache: 'npm' # Tối ưu tốc độ cache npm package
-
-      - name: Cài đặt Dependencies
-        run: |
-          npm ci || npm install
+          deno-version: v2.x
 
       - name: Khởi chạy bộ quét game Epic Games & Gửi thông báo
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: npm start
+        run: deno task start
 
       - name: Tự động cập nhật cơ sở dữ liệu games.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add games.json
-          
+
           # Chỉ commit và push nếu có sự thay đổi (phát hiện game mới)
           if git diff --staged --quiet; then
             echo "ℹ️ Không có game mới được phát hiện. Không cần cập nhật cơ sở dữ liệu."
@@ -55,4 +50,4 @@ jobs:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
           retain_days: 0
-          keep_minimum_runs: 1
+          keep_minimum_runs: 10

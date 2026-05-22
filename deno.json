@@ -1,0 +1,24 @@
+{
+  "imports": {
+    "@/": "./src/",
+    "zod": "npm:zod@^4.4.3"
+  },
+  "tasks": {
+    "start": "deno run --allow-read --allow-write --allow-net --allow-env tracker.ts"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "verbatimModuleSyntax": true
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "singleQuote": false,
+    "semiColons": true
+  }
+}

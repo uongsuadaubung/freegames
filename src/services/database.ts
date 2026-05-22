@@ -1,63 +1,58 @@
-import fs from 'fs';
-import { DatabaseStruct, EpicGameStruct } from '@/types.js';
+import fs from "node:fs";
+import type { DatabaseStruct, EpicGameStruct } from "@/types.ts";
+import { DatabaseStructSchema } from "@/types.ts";
+
+const DEFAULT_DB_PATH = "games.json";
 
 /**
- * Lớp quản lý cơ sở dữ liệu lịch sử game đã quét
+ * Đọc cơ sở dữ liệu từ file
  */
-export class DatabaseService {
-  private readonly dbPath: string;
-
-  /**
-   * @param {string} dbPath - Đường dẫn đến file JSON lưu lịch sử
-   */
-  constructor(dbPath: string) {
-    this.dbPath = dbPath;
+export function readDatabase(): DatabaseStruct {
+  if (!fs.existsSync(DEFAULT_DB_PATH)) {
+    return {
+      last_updated: new Date().toISOString(),
+      games: [],
+    };
   }
 
-  /**
-   * Đọc cơ sở dữ liệu từ file
-   * @returns {DatabaseStruct} Dữ liệu lịch sử quét
-   */
-  read(): DatabaseStruct {
-    if (!fs.existsSync(this.dbPath)) {
-      return {
-        last_updated: new Date().toISOString(),
-        games: []
-      };
-    }
-    
-    try {
-      const data = fs.readFileSync(this.dbPath, 'utf8');
-      return JSON.parse(data) as DatabaseStruct;
-    } catch (err) {
-      console.error('⚠️ Không thể đọc file lịch sử. Tạo mới dữ liệu mặc định.');
-      return {
-        last_updated: new Date().toISOString(),
-        games: []
-      };
-    }
-  }
-
-  /**
-   * Lưu cơ sở dữ liệu lịch sử
-   * @param {DatabaseStruct} dbData 
-   */
-  write(dbData: DatabaseStruct): void {
-    dbData.last_updated = new Date().toISOString();
-    fs.writeFileSync(this.dbPath, JSON.stringify(dbData, null, 2), 'utf8');
-    console.log(`💾 Đã cập nhật cơ sở dữ liệu lịch sử tại: ${this.dbPath}`);
-  }
-
-  /**
-   * Kiểm tra xem game đã được thông báo trước đó chưa
-   * @param {DatabaseStruct} dbData 
-   * @param {EpicGameStruct} game 
-   * @returns {boolean} True nếu game đã tồn tại trong lịch sử quét
-   */
-  isGameNotified(dbData: DatabaseStruct, game: EpicGameStruct): boolean {
-    return dbData.games.some(g => 
-      g.id === game.id || 
-      (g.title === game.title && g.start_date === game.start_date)
+  try {
+    const data = fs.readFileSync(DEFAULT_DB_PATH, "utf8");
+    const parsed = JSON.parse(data);
+    return DatabaseStructSchema.parse(parsed);
+  } catch (err: unknown) {
+    console.error(
+      "⚠️ Không thể đọc file lịch sử hoặc định dạng dữ liệu không hợp lệ. Tạo mới dữ liệu mặc định.",
     );
+    if (err instanceof Error) {
+      console.error("Chi tiết lỗi:", err.message);
+    } else {
+      console.error("Chi tiết lỗi:", err);
+    }
+    return {
+      last_updated: new Date().toISOString(),
+      games: [],
+    };
   }
+}
+
+/**
+ * Lưu cơ sở dữ liệu lịch sử
+ */
+export function writeDatabase(dbData: DatabaseStruct): void {
+  dbData.last_updated = new Date().toISOString();
+  fs.writeFileSync(DEFAULT_DB_PATH, JSON.stringify(dbData, null, 2), "utf8");
+  console.log(`💾 Đã cập nhật cơ sở dữ liệu lịch sử tại: ${DEFAULT_DB_PATH}`);
+}
+
+/**
+ * Kiểm tra xem game đã được thông báo trước đó chưa
+ */
+export function isGameNotified(
+  dbData: DatabaseStruct,
+  game: EpicGameStruct,
+): boolean {
+  return dbData.games.some((g) =>
+    g.id === game.id ||
+    (g.title === game.title && g.start_date === game.start_date)
+  );
 }
