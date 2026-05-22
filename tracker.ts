@@ -5,7 +5,7 @@ import {
 } from "@/services/database.ts";
 import { fetchFreeGames } from "@/services/epicStore.ts";
 import { sendGameNotification } from "@/services/telegram.ts";
-import process from "node:process";
+import process from "process";
 
 /**
  * Khởi chạy toàn bộ quy trình quét và gửi thông báo (Module-based)

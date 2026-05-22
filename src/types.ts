@@ -41,7 +41,6 @@ export type EpicApiPromotionOffer = Readonly<
 export const EpicApiElementSchema = z.object({
   id: z.string(),
   title: z.string(),
-  description: z.string().nullish(),
   promotions: z.object({
     promotionalOffers: z.array(
       z.object({

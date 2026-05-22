@@ -1,4 +1,4 @@
-import fs from "node:fs";
+import fs from "fs";
 import type { DatabaseStruct, EpicGameStruct } from "@/types.ts";
 import { DatabaseStructSchema } from "@/types.ts";
 

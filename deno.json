@@ -1,10 +1,12 @@
 {
   "imports": {
     "@/": "./src/",
+    "fs": "node:fs",
+    "process": "node:process",
     "zod": "npm:zod@^4.4.3"
   },
   "tasks": {
-    "start": "deno run --allow-read --allow-write --allow-net --allow-env tracker.ts"
+    "start": "deno run -A tracker.ts"
   },
   "compilerOptions": {
     "strict": true,

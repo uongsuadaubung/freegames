@@ -2,8 +2,8 @@ name: Epic Games Free Games Tracker
 
 on:
   schedule:
-    # Chạy tự động hàng ngày lúc 02:37 UTC (tức 09:37 sáng giờ Việt Nam)
-    - cron: "37 2 * * *"
+    # Chạy tự động hàng ngày lúc 02:00 UTC (tức 09:00 sáng giờ Việt Nam)
+    - cron: "0 2 * * *"
   workflow_dispatch:
 # Cho phép kích hoạt chạy thủ công từ giao diện GitHub bất cứ lúc nào
 

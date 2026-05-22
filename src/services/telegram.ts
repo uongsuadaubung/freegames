@@ -1,6 +1,6 @@
 import type { EpicGameStruct } from "@/types.ts";
 import { TelegramResponseSchema } from "@/types.ts";
-import process from "node:process";
+import process from "process";
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
