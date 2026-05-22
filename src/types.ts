@@ -32,7 +32,7 @@ export const EpicApiPromotionOfferSchema = z.object({
   endDate: z.string(),
   discountSetting: z.object({
     discountPercentage: z.number(),
-  }).optional(),
+  }).nullish(),
 });
 export type EpicApiPromotionOffer = Readonly<
   z.infer<typeof EpicApiPromotionOfferSchema>
@@ -41,29 +41,29 @@ export type EpicApiPromotionOffer = Readonly<
 export const EpicApiElementSchema = z.object({
   id: z.string(),
   title: z.string(),
-  description: z.string().optional(),
+  description: z.string().nullish(),
   promotions: z.object({
     promotionalOffers: z.array(
       z.object({
-        promotionalOffers: z.array(EpicApiPromotionOfferSchema),
+        promotionalOffers: z.array(EpicApiPromotionOfferSchema).nullish(),
       }),
-    ).optional(),
-  }).optional(),
+    ).nullish(),
+  }).nullish(),
   keyImages: z.array(
     z.object({
       type: z.string(),
       url: z.string(),
     }),
-  ).optional(),
+  ).nullish(),
   catalogNs: z.object({
     mappings: z.array(
       z.object({
-        pageSlug: z.string().optional(),
+        pageSlug: z.string().nullish(),
       }),
-    ).optional(),
-  }).optional(),
-  productSlug: z.string().optional(),
-  urlSlug: z.string().optional(),
+    ).nullish(),
+  }).nullish(),
+  productSlug: z.string().nullish(),
+  urlSlug: z.string().nullish(),
 });
 export type EpicApiElement = Readonly<z.infer<typeof EpicApiElementSchema>>;
 
@@ -71,10 +71,10 @@ export const EpicApiResponseSchema = z.object({
   data: z.object({
     Catalog: z.object({
       searchStore: z.object({
-        elements: z.array(EpicApiElementSchema).optional(),
-      }).optional(),
-    }).optional(),
-  }).optional(),
+        elements: z.array(EpicApiElementSchema).nullish(),
+      }).nullish(),
+    }).nullish(),
+  }).nullish(),
 });
 export type EpicApiResponse = Readonly<z.infer<typeof EpicApiResponseSchema>>;
 
