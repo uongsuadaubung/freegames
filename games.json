@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T06:10:45.380Z",
+  "last_updated": "2026-05-29T06:12:48.760Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -28,6 +28,20 @@
       "start_date": "2026-05-21T15:00:00.000Z",
       "end_date": "2026-05-28T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/tomb-raider-iiii-remastered-538640"
+    },
+    {
+      "id": "9621cc6e5d32437ca3dd998de177f6da",
+      "title": "LONESTAR",
+      "start_date": "2026-05-28T15:00:00.000Z",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/lonestar-83f143"
+    },
+    {
+      "id": "7fc5abc8f11c471e837ddd00ce963350",
+      "title": "Calico",
+      "start_date": "2026-05-28T15:00:00.000Z",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/calico"
     }
   ]
 }
