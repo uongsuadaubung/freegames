@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T06:21:22.729Z",
+  "last_updated": "2026-06-12T06:40:23.743Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -56,6 +56,20 @@
       "start_date": "2026-06-04T15:00:00.000Z",
       "end_date": "2026-06-11T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/songs-of-conquest"
+    },
+    {
+      "id": "7f0ab2828f9743d0abc6612a11222fdf",
+      "title": "The Ouroboros King",
+      "start_date": "2026-06-11T15:00:00.000Z",
+      "end_date": "2026-06-18T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/the-ouroboros-king-e1d547"
+    },
+    {
+      "id": "eb6ae87e73d94d2c96bab3c4da4dd3de",
+      "title": "Warhammer 40K Speed Freeks",
+      "start_date": "2026-06-11T15:00:00.000Z",
+      "end_date": "2026-06-18T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/warhammer-40k-speed-freeks-12879c"
     }
   ]
 }
