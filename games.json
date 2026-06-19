@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T06:40:23.743Z",
+  "last_updated": "2026-06-19T07:05:06.000Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -70,6 +70,20 @@
       "start_date": "2026-06-11T15:00:00.000Z",
       "end_date": "2026-06-18T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/warhammer-40k-speed-freeks-12879c"
+    },
+    {
+      "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+      "title": "Citizen Sleeper",
+      "start_date": "2026-06-18T15:00:00.000Z",
+      "end_date": "2026-06-25T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/citizen-sleeper-944858"
+    },
+    {
+      "id": "aee7ec395d054078a48d867849e2a550",
+      "title": "ROBOBEAT",
+      "start_date": "2026-06-18T15:00:00.000Z",
+      "end_date": "2026-06-25T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/robobeat-5f084b"
     }
   ]
 }
