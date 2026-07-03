@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T06:09:37.220Z",
+  "last_updated": "2026-07-03T05:52:04.586Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -98,6 +98,20 @@
       "start_date": "2026-06-25T15:00:00.000Z",
       "end_date": "2026-07-02T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/voidwrought-ce8f4b"
+    },
+    {
+      "id": "9bf3d3188d1e498095bc23c0955538d9",
+      "title": "River City Girls 2",
+      "start_date": "2026-07-02T15:00:00.000Z",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/river-city-girls-2-77af3a"
+    },
+    {
+      "id": "4ef54d5829b04656902dfa1f29b3b732",
+      "title": "I Have No Mouth, and I Must Scream",
+      "start_date": "2026-07-02T15:00:00.000Z",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/i-have-no-mouth-and-i-must-scream-95c5c2"
     }
   ]
 }
