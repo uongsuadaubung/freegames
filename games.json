@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T05:52:04.586Z",
+  "last_updated": "2026-07-10T06:02:19.258Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -112,6 +112,20 @@
       "start_date": "2026-07-02T15:00:00.000Z",
       "end_date": "2026-07-09T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/i-have-no-mouth-and-i-must-scream-95c5c2"
+    },
+    {
+      "id": "e5da2c017d4d4afab9f4c56525b66100",
+      "title": "Nova Lands",
+      "start_date": "2026-07-09T15:00:00.000Z",
+      "end_date": "2026-07-16T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/nova-lands-4d1788"
+    },
+    {
+      "id": "f247e0af293645bda266fa9957d82d62",
+      "title": "Tattoo Tycoon",
+      "start_date": "2026-07-09T15:00:00.000Z",
+      "end_date": "2026-07-16T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c"
     }
   ]
 }
