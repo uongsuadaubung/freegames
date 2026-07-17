@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T06:02:19.258Z",
+  "last_updated": "2026-07-17T05:12:17.071Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -126,6 +126,20 @@
       "start_date": "2026-07-09T15:00:00.000Z",
       "end_date": "2026-07-16T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c"
+    },
+    {
+      "id": "c27f2bb0dd9b4c4ca4973e653ab8a5be",
+      "title": "Luto",
+      "start_date": "2026-07-16T15:00:00.000Z",
+      "end_date": "2026-07-23T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/luto-0a4ab3"
+    },
+    {
+      "id": "371545146a944478ad5a87f9b581ac29",
+      "title": "Echo Generation: Midnight Edition",
+      "start_date": "2026-07-16T15:00:00.000Z",
+      "end_date": "2026-07-23T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026"
     }
   ]
 }
