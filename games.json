@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T05:12:17.071Z",
+  "last_updated": "2026-07-24T05:18:51.681Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -140,6 +140,13 @@
       "start_date": "2026-07-16T15:00:00.000Z",
       "end_date": "2026-07-23T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026"
+    },
+    {
+      "id": "223c59e227e74e079a1bbe5a234b896f",
+      "title": "Foretales",
+      "start_date": "2026-07-23T15:00:00.000Z",
+      "end_date": "2026-07-30T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/foretales-d6c5bd"
     }
   ]
 }
