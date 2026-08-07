@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T05:33:57.357Z",
+  "last_updated": "2026-08-07T04:24:07.851Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -161,6 +161,20 @@
       "start_date": "2026-07-30T15:00:00.000Z",
       "end_date": "2026-08-06T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/sol-cesto-e9b803"
+    },
+    {
+      "id": "871cc4ff18444059890a4d28653a62d5",
+      "title": "Beacon Pines",
+      "start_date": "2026-08-06T15:00:00.000Z",
+      "end_date": "2026-08-13T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/beacon-pines-629fc3"
+    },
+    {
+      "id": "231e8f6d250a453f9c44c0adf3a34656",
+      "title": "We Were Here Together",
+      "start_date": "2026-08-06T15:00:00.000Z",
+      "end_date": "2026-08-13T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/we-were-here-together-6a6d66"
     }
   ]
 }
