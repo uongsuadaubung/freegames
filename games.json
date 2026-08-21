@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T04:06:02.760Z",
+  "last_updated": "2026-08-21T02:59:50.032Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -182,6 +182,20 @@
       "start_date": "2026-08-13T15:00:00.000Z",
       "end_date": "2026-08-20T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/caravan-sandwitch-05ff58"
+    },
+    {
+      "id": "b467b7d3570e44c0b84e59475f4a5636",
+      "title": "Cardpocalypse Standard Edition",
+      "start_date": "2026-08-20T15:00:00.000Z",
+      "end_date": "2026-08-27T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/cardpocalypse"
+    },
+    {
+      "id": "a802acab90af4a07952a07a9fa677f2f",
+      "title": "Epic Mage Bundle",
+      "start_date": "2026-08-20T15:00:00.000Z",
+      "end_date": "2026-08-27T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/albion-online-7eb24d"
     }
   ]
 }
