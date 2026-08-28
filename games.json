@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T02:59:50.032Z",
+  "last_updated": "2026-08-28T13:46:25.960Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -196,6 +196,20 @@
       "start_date": "2026-08-20T15:00:00.000Z",
       "end_date": "2026-08-27T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/albion-online-7eb24d"
+    },
+    {
+      "id": "8401414902e84f2cb9afa9142f051d32",
+      "title": "Breathedge",
+      "start_date": "2026-08-27T15:00:00.000Z",
+      "end_date": "2026-09-03T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/breathedge"
+    },
+    {
+      "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
+      "title": "Rival Stars Horse Racing : Desktop Edition",
+      "start_date": "2026-08-27T15:00:00.000Z",
+      "end_date": "2026-09-03T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/rival-stars-horse-racing-dd09de"
     }
   ]
 }
