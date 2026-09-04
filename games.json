@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T13:46:25.960Z",
+  "last_updated": "2026-09-04T06:55:56.197Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -210,6 +210,13 @@
       "start_date": "2026-08-27T15:00:00.000Z",
       "end_date": "2026-09-03T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/rival-stars-horse-racing-dd09de"
+    },
+    {
+      "id": "b8cc76ce7d6645f0a282b843a072cc78",
+      "title": "Alone With You",
+      "start_date": "2026-09-03T15:00:00.000Z",
+      "end_date": "2026-09-10T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/alone-with-you-028a15"
     }
   ]
 }
