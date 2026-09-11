@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:55:56.197Z",
+  "last_updated": "2026-09-11T06:59:36.230Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -217,6 +217,20 @@
       "start_date": "2026-09-03T15:00:00.000Z",
       "end_date": "2026-09-10T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/alone-with-you-028a15"
+    },
+    {
+      "id": "c76046dddcdb43619c33ce0395941033",
+      "title": "Luftrausers",
+      "start_date": "2026-09-10T15:00:00.000Z",
+      "end_date": "2026-09-17T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/luftrausers-51e5e9"
+    },
+    {
+      "id": "e9bb092228f544c582e2c9395fae96f3",
+      "title": "Astral Ascent",
+      "start_date": "2026-09-10T15:00:00.000Z",
+      "end_date": "2026-09-17T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/astral-ascent-b33bc2"
     }
   ]
 }
