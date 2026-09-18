@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T06:59:36.230Z",
+  "last_updated": "2026-09-18T07:02:41.032Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -231,6 +231,20 @@
       "start_date": "2026-09-10T15:00:00.000Z",
       "end_date": "2026-09-17T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/astral-ascent-b33bc2"
+    },
+    {
+      "id": "8a20c6c8d5b5417e800c687e9d72013e",
+      "title": "Mindcop",
+      "start_date": "2026-09-17T15:00:00.000Z",
+      "end_date": "2026-09-24T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/mindcop-78e6c1"
+    },
+    {
+      "id": "b9ff3f98367a45cdac289dff6683a2bc",
+      "title": "Shogun Showdown",
+      "start_date": "2026-09-17T15:00:00.000Z",
+      "end_date": "2026-09-24T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/shogun-showdown-61832d"
     }
   ]
 }
