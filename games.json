@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T07:02:41.032Z",
+  "last_updated": "2026-09-25T07:07:01.653Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -245,6 +245,20 @@
       "start_date": "2026-09-17T15:00:00.000Z",
       "end_date": "2026-09-24T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/shogun-showdown-61832d"
+    },
+    {
+      "id": "7c14bf0cffdd43be968fdcf28e5af653",
+      "title": "Astrea Six Sided Oracles",
+      "start_date": "2026-09-24T15:00:00.000Z",
+      "end_date": "2026-10-01T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles-33c949"
+    },
+    {
+      "id": "6d99eae44d724baf84d6261a7a0f05d2",
+      "title": "Mechabellum",
+      "start_date": "2026-09-24T15:00:00.000Z",
+      "end_date": "2026-10-01T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/mechabellum-88a843"
     }
   ]
 }
