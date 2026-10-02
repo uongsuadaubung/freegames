@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T07:07:01.653Z",
+  "last_updated": "2026-10-02T07:55:56.202Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -259,6 +259,20 @@
       "start_date": "2026-09-24T15:00:00.000Z",
       "end_date": "2026-10-01T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/mechabellum-88a843"
+    },
+    {
+      "id": "7ae00c3e89174012b175cc73b4737723",
+      "title": "System Shock 2: 25th Anniversary Remaster",
+      "start_date": "2026-10-01T15:00:00.000Z",
+      "end_date": "2026-10-08T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/system-shock-2-25th-anniversary-remaster-cb94d9"
+    },
+    {
+      "id": "af4c34934afe4db0870b8a1d82dceb94",
+      "title": "BURIED STARS",
+      "start_date": "2026-10-01T15:00:00.000Z",
+      "end_date": "2026-10-08T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/buried-stars-d7c88c"
     }
   ]
 }
