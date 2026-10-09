@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T07:55:56.202Z",
+  "last_updated": "2026-10-09T08:29:03.275Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -273,6 +273,20 @@
       "start_date": "2026-10-01T15:00:00.000Z",
       "end_date": "2026-10-08T15:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/buried-stars-d7c88c"
+    },
+    {
+      "id": "cb733f3432db46bca94965b422c33ede",
+      "title": "Out of Sight",
+      "start_date": "2026-10-08T15:00:00.000Z",
+      "end_date": "2026-10-15T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/out-of-sight-b96ca8"
+    },
+    {
+      "id": "af6b823b8698465f9aedc3bddf2e8686",
+      "title": "TerraScape",
+      "start_date": "2026-10-08T15:00:00.000Z",
+      "end_date": "2026-10-15T15:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/terrascape-2b12b1"
     }
   ]
 }
