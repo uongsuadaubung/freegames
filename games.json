@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T08:02:49.582Z",
+  "last_updated": "2026-11-06T08:55:31.603Z",
   "games": [
     {
       "id": "73a4416d5cdb42f682d504fdf48e987b",
@@ -322,6 +322,20 @@
       "start_date": "2026-10-29T15:00:00.000Z",
       "end_date": "2026-11-05T16:00:00.000Z",
       "store_url": "https://store.epicgames.com/en-US/p/sorry-were-closed-724c86"
+    },
+    {
+      "id": "a9748abde1c94b66aae5250bb9fc5503",
+      "title": "Idle Champions of the Forgotten Realms",
+      "start_date": "2026-11-05T16:00:00.000Z",
+      "end_date": "2026-11-12T16:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms"
+    },
+    {
+      "id": "3be0a0d8479946d78f60d90c9442a0b4",
+      "title": "Flotsam",
+      "start_date": "2026-11-05T16:00:00.000Z",
+      "end_date": "2026-11-12T16:00:00.000Z",
+      "store_url": "https://store.epicgames.com/en-US/p/flotsam-266287"
     }
   ]
 }
